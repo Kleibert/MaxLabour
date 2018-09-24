@@ -1,0 +1,162 @@
+<!doctype html>
+<!-- Project : Web Site Max Labour
+    Autor: Kleibert Aquino
+    Created:2017-06-21-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Max Labour</title>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/code.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+
+<nav id="myNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container">
+     <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img id="myImage"  alt="Brand" src="img/brand2.png">
+        <p id="demo" onclick="myMenu(10)"></p>
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul id="navCustom" class="nav navbar-nav navbar-right navbar-right-custom">
+        <li id="link0"><a href="#about" onclick="myMenu(0)" >À propos<span class="sr-only">(current)</span></a></li>
+        <li id="link1"><a href="#experience" onclick="myMenu(1)">Expérience</a></li>
+        <li id="link2"><a href="#services" onclick="myMenu(2)">Services</a></li>
+        <li id="link3"><a href="#secteur" onclick="myMenu(3)">Secteur</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Français <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#" style="color: #000 !important">Français</a></li>
+            <li><a href="#" style="color: #000 !important">Anglais</a></li>
+           
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse --> 
+   </div>
+
+</nav>
+
+<div class="jumbotron slide">
+     <div class="container">
+      	<div class="slide">
+	        <h1 class="text-center">BIENVENEU!</h1>
+	        <p class="text-center">Vous faire sauver du temps • de l’argent • du travail
+
+				et rendre votre production plus efficace.</p>
+				 <p class="text-center"><span class="glyphicon glyphicon-signal" aria-hidden="true" style="font-size:100px"></span></p>
+		</div>
+      </div>
+</div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="text-center "><span class="glyphicon glyphicon-ok-sign icon-custom" aria-hidden="true" ></span></h2>
+          <p>Votre entreprise prend de l’expansion et vous avait un besoin de main-d’oeuvre? </p>
+          
+        </div>
+        <div class="col-md-4">
+          <h2 class="text-center"><span class="glyphicon glyphicon-ok-sign icon-custom" aria-hidden="true"></span></h2>
+          <p>Vous voulez sauver du temps dans le recrutement de personnel? </p>
+          
+       </div>
+        <div class="col-md-4">
+          <h2 class="text-center"><span class="glyphicon glyphicon-ok-sign icon-custom" aria-hidden="true" ></span></h2>
+          <p>Vous voulez sauver de l’argent sans perdre l’efficacité de votre production?</p>
+        </div>
+      </div>
+
+     
+    </div> <!-- /container -->
+
+<div class="jumbotron jumbotron-custom"> 
+	<div class="container"> 
+		<H1 class="text-center text-h1-color">Vous faire sauver du temps • de l’argent • du travail
+                                          et rendre votre production plus efficace</H1>
+	</div>
+</div>
+
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 > <span id="about"  class="" aria-hidden="true"></span>À propos de nous</h2>
+          <p>Labour Max est une agence qui s’occupe de recruter du personnel pour les entreprises dans les
+              différents domaines industriels.</p>
+        	<h2><span id="experience"  class="" aria-hidden="true"></span>Notre expérience</h2>
+          <p>Labour Max est une entreprise qui connaît une forte expansion à travers la grande région de
+              Montréal et ses alentours. Ayant toujours des employés efficients et disponibles, Labour Max se fait
+              une place dans le secteur du placement. De plus, grâce à ses divers services et ses tarifs avantageux,
+              variant d’un client à l’autre, que ce soit du simple recrutement ou du ravitaillement de notre main
+              d’oeuvre, Labour Max gagne rapidement de l’expertise ainsi que la confiance des potentiels clients
+              dans le marché du travail. Que ce soit dans le secteur du plastique, de l’alimentation, de l’acier ou
+              tout autre domaine, vous pouvez faire confiance à Labour Max. La majorité de ses employés ont dé
+              jà une formation et expérience avant d’être envoyés à une nouvelle usine.</p>
+ 			    <h2><span id="services"  class="" aria-hidden="true"></span>Nos services</h2>
+	          <p>LNous offrons des services de recrutement pour les entreprises dans tous les secteurs industriels,
+              le ravitaillement de main-d’oeuvre, le transport de personnel ainsi que des tarifs avantageux pour
+              votre entreprise.</p>
+			    <h2><span id="secteur"  class="" aria-hidden="true"></span>Secteur d’expérience :</h2>
+	          <p>Transformation alimentaire • Usine d’acier et d’injection de plastique
+•           Journalier en entrepôt • Chauffeur de charriot élévateur</p>
+		    	<h2>Notre fiabilité</h2>
+	          <p>Labour max est une agence qui est à l’écoute de ses clients afin de mieux répondre à ses besoins
+            avec toute diligence et honnêteté. Nous veillons toujours aux intérêts de notre clientèle de
+            manière minutieuse.</p>
+		    	<h2>Nos valeurs</h2>
+	          <p>Nous sommes une agence familiale établie derrière les valeurs de l’honnêteté, la diligence et
+            l’efficacité.</p>
+        </div>
+      </div>
+ </div>
+ <div class="contact">
+ <div class="container">
+ <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" style="color: #fff">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" style="color: #fff">Nom</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Nom">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+ </div>
+ 
+
+ <footer>
+  <p class="text-center">&copy; Labour Max    Entreprise de services.</p>
+</footer>
+
+</body>
+</html>
